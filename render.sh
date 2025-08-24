@@ -10,4 +10,4 @@ source "$VENV_DIR/bin/activate"
 
 pip install -r requirements.txt
 
-rendercv render cv.yaml --output-folder-name output --html-path index.html --pdf-path cv.pdf --png-path cv.png
+rendercv render cv.yaml --output-folder-name output --html-path index.html --pdf-path cv.pdf
