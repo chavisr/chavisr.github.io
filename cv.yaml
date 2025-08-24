@@ -1,0 +1,268 @@
+cv:
+  name: Chavis Rujichan
+  # location: Location
+  email: chavis.rujichan@gmail.com
+  phone: +66-86-798-1272
+  # website: 'If this is the solution, I want my problem back.'
+  social_networks:
+  - network: LinkedIn
+    username: chavisr
+  - network: GitHub
+    username: chavisr
+  # - network: GitLab
+  #   username: chavisr
+  sections:
+    # about_me:
+    # - If this is the solution, I want my problem back.
+    skills:
+    - label: Programming
+      details: Proficient with **`Python`** and **`Git`**, good understanding of **`Linux`** fundamentals, strong skills in **`SHELL`** scripting and **`GNU utility`** programs
+    - label: Cloud Platforms
+      details: Hands-on experience with Microsoft **`Azure`** and **`AWS`** cloud services
+    - label: CI/CD
+      details: Experienced in implementing GitOps with **`GitLab CI`** and **`FluxCD`**, with additional in **`Jenkins`** and **`ArgoCD`**
+    - label: Containerization
+      details: Skilled in container technologies including **`Kubernetes`** and **`Docker`** for scalable deployment
+    - label: Infrastructure as Code (IaC)
+      details: Proficient in Infrastructure as Code using **`Terraform`** and **`Ansible`**
+    - label: Observability & Monitoring
+      details: Familiar with **`ELK`** stack, **`Prometheus`**, and **`Grafana`** for log management, metrics collection, and visualization
+    - label: Workflow Orchestration
+      details: Experience working with **`ArgoWorkflows`** and **`Airflow`**
+    - label: Languages
+      details: "English (IELTS: 6.0, TOEIC: 795), Thai (native)"
+    experience:
+    - company: SCB
+      position: Devops Engineer
+      date:
+      start_date: 2024-04
+      end_date: present
+      # location: Livingston, LA, USA
+      summary:
+      highlights:
+      - Developed and optimized CI/CD pipelines, refactored codes, fixed bugs, and reduced processing time by 50%
+      - Migrated Jenkins jobs to GitLab CI, achieving faster performance and easier maintenance
+      - Led migration of on-premises workloads to AWS and Azure cloud platforms
+      - Implemented Infrastructure as Code (IaC) practices using FluxCD and GitLab CI to manage Kubernetes applications effectively
+      - Coordinated with external development vendors to streamline app delivery
+      - Developed standardized Helm charts to deploy applications across the entire company
+      - Created uniform Dockerfile templates for multiple programming languages to ensure consistency
+    - company: Visai AI
+      position: Devops Engineer / Machine Learning Engineer
+      date:
+      start_date: 2022-04
+      end_date: 2024-03
+      # location: Ankara, Türkiye
+      summary:
+      highlights:
+      - Developed Kubernetes manifests to enable seamless microservice deployment
+      - Managed environments using Kustomize and GitOps for consistent “build once, run anywhere” workflows
+      - Provisioned infrastructure as code with Terraform and Ansible
+      - Set up on-premises Kubernetes clusters from scratch, including GPU support for ML workloads
+      - Designed and implemented end-to-end machine learning training pipelines using Argo Workflows
+      - Built automated CI/CD pipelines leveraging GitLab CI and FluxCD for streamlined deployments
+      - Managed Kubernetes secrets securely with HashiCorp Vault and Azure Key Vault
+      - Monitored clusters and microservices using the EFK stack (Elasticsearch, Fluent Bit, Kibana)
+    - company: Technimal
+      position: Machine Learning Engineer
+      date:
+      start_date: 2021-02
+      end_date: 2022-03
+      # location: Istanbul, Türkiye
+      summary:
+      highlights:
+      - Developed anomaly detection system for industrial machinery using signal processing, orchestrated with MLflow and Apache Airflow for scheduled task execution
+      - Integrated edge AI solutions to monitor and control product quality in real-time on conveyor lines
+      - Implemented thermal issue detection using traditional image processing techniques
+    # projects:
+    #   - name: "[Example Project](https://example.com)"
+    #     date:
+    #     start_date: 2024-05
+    #     end_date: present
+    #     location:
+    #     summary: A web application for writing essays
+    #     highlights:
+    #       - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
+    #       - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+    #   - name: "[Teaching on Udemy](https://example.com)"
+    #     date: Fall 2023
+    #     start_date:
+    #     end_date:
+    #     location:
+    #     summary:
+    #     highlights:
+    #       - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
+    education:
+    - institution: KMITL
+      area: Electronics Engineering
+      degree: Bachelor
+      date:
+      start_date: 2017-05
+      end_date: 2021-05
+      # location: Stanford, CA, USA
+      summary:
+      highlights:
+      - "Final Project - Parking lot management using object detection and license plate recognition"
+    publications:
+    - title: Bacteria Classification using Image Processing and DCNN
+      authors:
+      - "*Chavis Rujichan*"
+      - Narate Vongserewattana
+      - Pattarapong Phasukkit
+      # doi: 10.1109/TASC.2023.3340648
+      url: https://ieeexplore.ieee.org/document/8990270
+      # journal:
+      date: 2019-11
+    extracurricular_activities:
+    - bullet: Served as Teaching Assistant for Docker and Kubernetes training course
+    # - bullet: Participate in Datathon
+    # - bullet: Participate in NLP
+    # numbered_entries:
+    #   - number: This is a numbered entry.
+    #   - number: This is another numbered entry.
+    #   - number: This is the third numbered entry.
+    # reversed_numbered_entries:
+    #   - reversed_number: This is a reversed numbered entry.
+    #   - reversed_number: This is another reversed numbered entry.
+    #   - reversed_number: This is the third reversed numbered entry.
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: "|"
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE in AREA -- LOCATION"
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: "**NAME** -- **LOCATION**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+  - Jan
+  - Feb
+  - Mar
+  - Apr
+  - May
+  - June
+  - July
+  - Aug
+  - Sept
+  - Oct
+  - Nov
+  - Dec
+  full_names_of_months:
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
+rendercv_settings:
+  date: "2025-08-24"
+  render_command:
+  bold_keywords: []
