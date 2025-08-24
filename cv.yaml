@@ -1,9 +1,9 @@
 cv:
   name: Chavis Rujichan
-  # location: Location
+  # location: xxx
   email: chavis.rujichan@gmail.com
   phone: +66-86-798-1272
-  # website: 'If this is the solution, I want my problem back.'
+  # website: https://chavisr.github.io/
   social_networks:
   - network: LinkedIn
     username: chavisr
@@ -37,7 +37,7 @@ cv:
       date:
       start_date: 2024-04
       end_date: present
-      # location: Livingston, LA, USA
+      # location: xxx
       summary:
       highlights:
       - Developed and optimized CI/CD pipelines, refactored codes, fixed bugs, and reduced processing time by 50%
@@ -52,7 +52,7 @@ cv:
       date:
       start_date: 2022-04
       end_date: 2024-03
-      # location: Ankara, Türkiye
+      # location: xxx
       summary:
       highlights:
       - Developed Kubernetes manifests to enable seamless microservice deployment
@@ -68,7 +68,7 @@ cv:
       date:
       start_date: 2021-02
       end_date: 2022-03
-      # location: Istanbul, Türkiye
+      # location: xxx
       summary:
       highlights:
       - Developed anomaly detection system for industrial machinery using signal processing, orchestrated with MLflow and Apache Airflow for scheduled task execution
@@ -109,14 +109,12 @@ cv:
       - "*Chavis Rujichan*"
       - Narate Vongserewattana
       - Pattarapong Phasukkit
-      # doi: 10.1109/TASC.2023.3340648
-      url: https://ieeexplore.ieee.org/document/8990270
-      # journal:
+      doi: 10.1109/BMEiCON47515.2019.8990270
+      # url: xxx
+      # journal: xxx
       date: 2019-11
     extracurricular_activities:
     - bullet: Served as Teaching Assistant for Docker and Kubernetes training course
-    # - bullet: Participate in Datathon
-    # - bullet: Participate in NLP
     # numbered_entries:
     #   - number: This is a numbered entry.
     #   - number: This is another numbered entry.
