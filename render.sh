@@ -4,9 +4,9 @@ set -e
 
 VENV_DIR="venv"
 
-[ ! -d "$VENV_DIR" ] && python3 -m venv $VENV_DIR
+[ ! -d $VENV_DIR ] && python3 -m venv $VENV_DIR
 
-source "$VENV_DIR/bin/activate"
+source $VENV_DIR/bin/activate
 
 pip install -r requirements.txt
 
