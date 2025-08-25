@@ -106,7 +106,7 @@ cv:
     publications:
     - title: Bacteria Classification using Image Processing and DCNN
       authors:
-      - "*Chavis Rujichan*"
+      - "***Chavis Rujichan***"
       - Narate Vongserewattana
       - Pattarapong Phasukkit
       doi: 10.1109/BMEiCON47515.2019.8990270
