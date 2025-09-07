@@ -1,7 +1,6 @@
 VENV := venv
 PIP := $(VENV)/bin/pip
 RENDERCV := $(VENV)/bin/rendercv
-OUTPUT := output
 
 .PHONY: all setup install render clean
 
@@ -14,7 +13,7 @@ install: setup
 	$(PIP) install -r requirements.txt
 
 render: install
-	$(RENDERCV) render cv.yaml --output-folder-name $(OUTPUT) --html-path index.html --pdf-path cv.pdf
+	$(RENDERCV) render cv.yaml --html-path index.html --pdf-path cv.pdf
 
 clean:
-	rm -rf $(VENV) $(OUTPUT)
+	rm -rf $(VENV) rendercv_output
