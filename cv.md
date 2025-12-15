@@ -8,7 +8,7 @@
 
 # Skills
 
-- Programming: Proficient in #strong[`Python`] and #strong[`Git`], strong in #strong[`SHELL`] scripting and #strong[`Linux`] fundamentals
+- Programming: Proficient in **`Python`** and #strong[`Git`], strong in #strong[`SHELL`] scripting and #strong[`Linux`] fundamentals
 
 - Cloud Platforms: Hands-on experience with Microsoft #strong[`Azure`] and #strong[`AWS`] cloud services
 
