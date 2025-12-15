@@ -11,7 +11,7 @@ setup:
 	$(PIP) install -r requirements.txt -q
 
 render: setup
-	$(RENDERCV) render cv.yaml --html-path index.html --pdf-path cv.pdf
+	$(RENDERCV) render cv.yaml
 
 clean:
-	rm -rf $(VENV) rendercv_output
+	rm -rf $(VENV)
