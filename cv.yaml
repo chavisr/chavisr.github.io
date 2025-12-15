@@ -146,7 +146,7 @@ design:
     footer: rgb(128, 128, 128)
     top_note: rgb(128, 128, 128)
   typography:
-    line_spacing: 0.4em
+    line_spacing: 0.42em
   #   alignment: justified
   #   date_and_location_column_alignment: right
   #   font_family:
@@ -289,13 +289,13 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: ./cv.typ
+    typst_path: /tmp/cv.typ
     pdf_path: ./cv.pdf
-    markdown_path: ./cv.md
+    markdown_path: /tmp/cv.md
     html_path: ./index.html
     png_path: ./cv.png
     dont_generate_markdown: false
-    dont_generate_html: false
+    dont_generate_html: true
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: true
