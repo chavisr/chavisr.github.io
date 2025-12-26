@@ -295,7 +295,7 @@ settings:
     html_path: ./index.html
     png_path: ./cv.png
     dont_generate_markdown: false
-    dont_generate_html: true
+    dont_generate_html: false
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: true
